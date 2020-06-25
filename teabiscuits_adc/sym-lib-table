@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name max11169)(type Legacy)(uri ${KIPRJMOD}/max11169.lib)(options "")(descr ""))
+  (lib (name max9632)(type Legacy)(uri ${KIPRJMOD}/max9632.lib)(options "")(descr ""))
+)

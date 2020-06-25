@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LMP7721)(type Legacy)(uri ${KIPRJMOD}/LMP7721.lib)(options "")(descr ""))
+  (lib (name LMP7715)(type Legacy)(uri ${KIPRJMOD}/LMP7715.lib)(options "")(descr ""))
+)
