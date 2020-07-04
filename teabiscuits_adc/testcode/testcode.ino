@@ -1,5 +1,7 @@
 #include <SPI.h>
 
+//Figure 5. CS Mode 3-Wire, No-Busy Indicator Connection Diagram (SDI High)
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
