@@ -4,12 +4,25 @@
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(115200);
-  SPI.beginTransaction(SPISettings(200000, MSBFIRST, SPI_MODE0)); 
+  Serial.begin(2000000);
+  SPI.beginTransaction(SPISettings(16000000, MSBFIRST, SPI_MODE0)); 
   pinMode(2,OUTPUT);
   //pinMode(3,OUTPUT);
   //digitalWrite(3, LOW);
   digitalWrite(2, LOW);
+}
+
+void ho(int v) {
+  v = v & 0xF;
+  if(v < 10 ) Serial.write('0'+v); else
+  if(v >= 10) Serial.write('A'+v-10);
+}
+
+void hexout(long v) {
+  ho(v >> 12);
+  ho(v >>  8);
+  ho(v >>  4);
+  ho(v);
 }
 
 void loop() {
@@ -19,31 +32,27 @@ void loop() {
   long spiData = 0;
   long hi = 0, lo = 0;
 
-  delay(10);
+  delayMicroseconds(5);
   spiData = SPI.transfer(0x00);
   spiData = SPI.transfer(0x00);
-  delay(10);
+  delayMicroseconds(5);
   digitalWrite(2, HIGH); // do acq
 
   //delay(10);
   //digitalWrite(2, LOW); // do xfer
   //delay(10);
-  delay(10);
+  delayMicroseconds(5);
   for(int n=0;n<8;n++) {
-   //   delay(10);
   spiData = SPI.transfer(0x00);
   hi = spiData;
 
   spiData = SPI.transfer(0x00);
   lo = spiData;
 
-
   adcData  = hi << 8;
   adcData += lo;
-  Serial.print(adcData);
-  Serial.print(" ");
+  hexout(adcData);
   }
   Serial.println();
   digitalWrite(2, LOW); 
-  delay(10);
 }
