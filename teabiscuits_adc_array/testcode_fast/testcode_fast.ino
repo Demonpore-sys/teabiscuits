@@ -5,7 +5,7 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(2000000);
-  SPI.beginTransaction(SPISettings(16000000, MSBFIRST, SPI_MODE0)); 
+  SPI.beginTransaction(SPISettings(30000000, MSBFIRST, SPI_MODE0)); 
   pinMode(2,OUTPUT);
   //pinMode(3,OUTPUT);
   //digitalWrite(3, LOW);
@@ -32,7 +32,7 @@ void loop() {
   long spiData = 0;
   long hi = 0, lo = 0;
 
-  delayMicroseconds(5);
+  delayMicroseconds(1000);
   spiData = SPI.transfer(0x00);
   spiData = SPI.transfer(0x00);
   delayMicroseconds(5);
