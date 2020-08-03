@@ -10,7 +10,7 @@ teabiscuits_adc_4ch: ADAR7521 Based 4 channel ADC board. Regulator comes up with
 
 teabiscuits_amp: LMP7721 Based transimpedance amplifier, uses guarding circuit. Bring up started, see notes on notion.
 
-teabiscuits_amp_mini: LMP7721 Based amplifier, attempt to make a very small board, no guarding.
+teabiscuits_amp_mini: LMP7721 Based amplifier, attempt to make a very small board, no guarding. Tested, works.
 
 teabiscuits_amp_mini_bias: LMP7721 Based board with bias control, has been built. r3 will require modifications (see notion)
 
