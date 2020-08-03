@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ADAR7251)(type Legacy)(uri ${KIPRJMOD}/ADAR7251.lib)(options "")(descr ""))
+  (lib (name teabiscuits_adc_4ch-rescue)(type Legacy)(uri ${KIPRJMOD}/teabiscuits_adc_4ch-rescue.lib)(options "")(descr ""))
 )
