@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name teabiscuits_power)(type KiCad)(uri /home/new/gitcode/teabiscuits/teabiscuits_power)(options "")(descr ""))
+  (lib (name JST1_5_3p)(type KiCad)(uri ${KIPRJMOD}/JST1_5_3p.pretty)(options "")(descr ""))
+)
