@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 478)
     (zones 0)
     (modules 40)
@@ -2087,6 +2087,9 @@
     )
   )
 
+  (gr_text "Teabiscuits Compute r1" (at 121.5 99.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 173.81 148) (end 215.25 148) (layer Edge.Cuts) (width 0.05) (tstamp 5F0D1E63))
   (gr_line (start 161.81 148) (end 170.31 148) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 149.81 148) (end 158.31 148) (layer Edge.Cuts) (width 0.05))

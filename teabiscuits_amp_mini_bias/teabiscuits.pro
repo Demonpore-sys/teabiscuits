@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2020 08:28:32 AM JST
+update=2020 August 19, Wednesday 13:12:27
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=teabiscuits_r3
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

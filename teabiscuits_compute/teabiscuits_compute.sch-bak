@@ -1166,11 +1166,11 @@ Text GLabel 4700 6950 0    50   Input ~ 0
 8
 Text GLabel 4700 7050 0    50   Input ~ 0
 9
-Text GLabel 4700 7150 0    50   Input ~ 0
+Text GLabel 4700 7350 0    50   Input ~ 0
 24
 Text GLabel 4700 7250 0    50   Input ~ 0
 25
-Text GLabel 4700 7350 0    50   Input ~ 0
+Text GLabel 4700 7150 0    50   Input ~ 0
 28
 Text GLabel 5200 7350 2    50   Input ~ 0
 30
