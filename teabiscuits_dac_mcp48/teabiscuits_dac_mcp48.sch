@@ -33,7 +33,7 @@ F 1 "OP07" H 8144 3555 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7850 3650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 7850 3750 50  0001 C CNN
 	1    7800 3600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -175,24 +175,24 @@ $EndComp
 $Comp
 L power:+5V #PWR06
 U 1 1 5F5B996D
-P 7700 3300
-F 0 "#PWR06" H 7700 3150 50  0001 C CNN
-F 1 "+5V" H 7715 3473 50  0000 C CNN
-F 2 "" H 7700 3300 50  0001 C CNN
-F 3 "" H 7700 3300 50  0001 C CNN
-	1    7700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-5V #PWR07
-U 1 1 5F5B9FBF
 P 7700 3900
-F 0 "#PWR07" H 7700 4000 50  0001 C CNN
-F 1 "-5V" H 7715 4073 50  0000 C CNN
+F 0 "#PWR06" H 7700 3750 50  0001 C CNN
+F 1 "+5V" H 7715 4073 50  0000 C CNN
 F 2 "" H 7700 3900 50  0001 C CNN
 F 3 "" H 7700 3900 50  0001 C CNN
 	1    7700 3900
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:-5V #PWR07
+U 1 1 5F5B9FBF
+P 7700 3300
+F 0 "#PWR07" H 7700 3400 50  0001 C CNN
+F 1 "-5V" H 7715 3473 50  0000 C CNN
+F 2 "" H 7700 3300 50  0001 C CNN
+F 3 "" H 7700 3300 50  0001 C CNN
+	1    7700 3300
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -306,7 +306,6 @@ F 3 " ~" H 8650 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 3600 8100 3600
-Connection ~ 8100 3600
 $Comp
 L power:GND #PWR08
 U 1 1 5F5C3D56
@@ -384,4 +383,5 @@ F 3 "" H 8450 4950 50  0001 C CNN
 	1    8450 4950
 	1    0    0    -1  
 $EndComp
+Connection ~ 8100 3600
 $EndSCHEMATC
