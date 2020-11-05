@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6-0-10_14)*%
-%TF.CreationDate,2020-09-11T15:14:46+09:00*%
+%TF.CreationDate,2020-10-24T23:40:29+09:00*%
 %TF.ProjectId,teabiscuits_dac_mcp48,74656162-6973-4637-9569-74735f646163,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.6-0-10_14)) date 2020-09-11 15:14:46*
+G04 Created by KiCad (PCBNEW (5.1.6-0-10_14)) date 2020-10-24 23:40:29*
 %MOMM*%
 %LPD*%
 G01*
@@ -669,7 +669,7 @@ D11*
 X133750000Y-116750000D03*
 %TD*%
 D12*
-%TO.C,Je*%
+%TO.C,J1*%
 G36*
 X172190245Y-110979039D02*
 G01*

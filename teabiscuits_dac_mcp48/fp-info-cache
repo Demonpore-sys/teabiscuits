@@ -1,4 +1,4 @@
-18633597497142250
+18635193499897733
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59044,6 +59044,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PDME1-S5-D3-S
+CONV_PDME1-S5-D3-S
+
+
+0
+5
+5
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -81276,7 +81283,7 @@ transformer flyback
 0
 10
 10
-VR_B10K
+VR
 Potentiometer_WirePads_largePads
 Potentiometer, Wire Pads only, RevA, 30 July 2010,
 Potentiometer Wire Pads only RevA 30 July 2010 
