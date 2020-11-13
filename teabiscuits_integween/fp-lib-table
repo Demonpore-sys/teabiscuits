@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name JST1_5_3p)(type KiCad)(uri ${KIPRJMOD}/JST1_5_3p.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name VR)(type KiCad)(uri ${KIPRJMOD}//VR_B10K.pretty)(options "")(descr ""))
+  (lib (name PDME1-S5-D3-S)(type KiCad)(uri ${KIPRJMOD}/PDME1-S5-D3-S)(options "")(descr ""))
+)

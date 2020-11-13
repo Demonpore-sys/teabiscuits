@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PDME1-S5-D3-S
+#
+DEF PDME1-S5-D3-S U 0 40 Y Y 1 L N
+F0 "U" -500 300 50 H V L BNN
+F1 "PDME1-S5-D3-S" -500 -400 50 H V L BNN
+F2 "CONV_PDME1-S5-D3-S" 0 0 50 H I L BNN
+F3 "CUI" 0 0 50 H I L BNN
+F4 "10.16mm" 0 0 50 H I L BNN
+F5 "05/02/2019" 0 0 50 H I L BNN
+F6 "Manufacturer recommendations" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -500 300 -500 -300 N
+P 2 0 0 6 -500 -300 500 -300 N
+P 2 0 0 6 500 -300 500 300 N
+P 2 0 0 6 500 300 -500 300 N
+X VIN 1 -700 200 200 R 40 40 0 0 I 
+X GND 2 -700 -200 200 R 40 40 0 0 W 
+X -VOUT 4 700 -200 200 L 40 40 0 0 O 
+X 0V 5 700 0 200 L 40 40 0 0 W 
+X +VOUT 6 700 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
