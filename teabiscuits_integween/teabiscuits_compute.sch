@@ -94,7 +94,7 @@ SPI1_MOSI
 Text GLabel 1400 6950 0    50   Input ~ 0
 SPI1_SCLK
 $Comp
-L teensy41:teensy41 U1
+L teabiscuits_compute-rescue:teensy41-teensy41 U1
 U 1 1 5F2E3EA3
 P 1900 5750
 F 0 "U1" H 1900 6615 50  0000 C CNN
@@ -417,7 +417,7 @@ F 6 "Manufacturer recommendations" H 2200 3500 50  0001 L BNN "Field6"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:ADP7182AUJZ-2.5 U4
+L teabiscuits_compute-rescue:ADP7182AUJZ-2.5-Regulator_Linear U4
 U 1 1 5F94E553
 P 3650 4000
 F 0 "U4" H 3400 4300 50  0000 C CNN
@@ -697,7 +697,7 @@ L Device:C C6
 U 1 1 5F9857E0
 P 7550 3700
 F 0 "C6" H 7665 3746 50  0000 L CNN
-F 1 "0.1uF" H 7665 3655 50  0000 L CNN
+F 1 "22uF" H 7665 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7588 3550 50  0001 C CNN
 F 3 "~" H 7550 3700 50  0001 C CNN
 	1    7550 3700
@@ -708,7 +708,7 @@ L Device:C C5
 U 1 1 5F985F12
 P 6650 3050
 F 0 "C5" V 6398 3050 50  0000 C CNN
-F 1 "0.1uF" V 6489 3050 50  0000 C CNN
+F 1 "1uF" V 6489 3050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6688 2900 50  0001 C CNN
 F 3 "~" H 6650 3050 50  0001 C CNN
 	1    6650 3050
