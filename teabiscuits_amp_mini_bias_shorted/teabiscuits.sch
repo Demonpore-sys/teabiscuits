@@ -302,7 +302,7 @@ U 1 1 5EF6AE6A
 P 1050 950
 F 0 "J3" H 1022 882 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 1022 973 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 1050 950 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical" H 1050 950 50  0001 C CNN
 F 3 "~" H 1050 950 50  0001 C CNN
 	1    1050 950 
 	-1   0    0    1   
@@ -390,28 +390,6 @@ F 3 "" H 8500 3400 50  0001 C CNN
 	1    8500 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_Coaxial J4
-U 1 1 5EFB71A9
-P 5350 3300
-F 0 "J4" H 5450 3182 50  0000 L CNN
-F 1 "Conn_Coaxial" H 5450 3273 50  0000 L CNN
-F 2 "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB" H 5350 3300 50  0001 C CNN
-F 3 " ~" H 5350 3300 50  0001 C CNN
-	1    5350 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5EFBB96C
-P 5350 3500
-F 0 "#PWR0121" H 5350 3250 50  0001 C CNN
-F 1 "GND" H 5355 3327 50  0000 C CNN
-F 2 "" H 5350 3500 50  0001 C CNN
-F 3 "" H 5350 3500 50  0001 C CNN
-	1    5350 3500
-	1    0    0    -1  
-$EndComp
 Text GLabel 6250 3300 3    50   Input ~ 0
 GUARD
 Text GLabel 6550 3300 3    50   Input ~ 0
@@ -423,8 +401,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 3700 7150 3300
 Text GLabel 7750 4000 3    50   Input ~ 0
-Vbias
-Text GLabel 6100 3300 3    50   Input ~ 0
 Vbias
 $Comp
 L Device:R R5
@@ -451,45 +427,27 @@ F 3 "" H 7150 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 2850 7150 3100
-$Comp
-L Device:R R6
-U 1 1 5F28EE92
-P 5700 3300
-F 0 "R6" V 5493 3300 50  0000 C CNN
-F 1 "1K" V 5584 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 3300 50  0001 C CNN
-F 3 "~" H 5700 3300 50  0001 C CNN
-	1    5700 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5850 3300 6100 3300
 Wire Wire Line
 	6250 3200 6100 3200
 Wire Wire Line
 	6100 3200 6100 3300
 Connection ~ 6250 3200
 $Comp
-L Device:C C6
-U 1 1 5F28FF65
-P 5850 3450
-F 0 "C6" H 5850 3350 50  0000 L CNN
-F 1 "100nF" H 5600 3350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 3300 50  0001 C CNN
-F 3 "~" H 5850 3450 50  0001 C CNN
-	1    5850 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5850 3300
-$Comp
 L power:GND #PWR02
 U 1 1 5F290867
-P 5850 3600
-F 0 "#PWR02" H 5850 3350 50  0001 C CNN
-F 1 "GND" H 5855 3427 50  0000 C CNN
-F 2 "" H 5850 3600 50  0001 C CNN
-F 3 "" H 5850 3600 50  0001 C CNN
-	1    5850 3600
+P 5950 3250
+F 0 "#PWR02" H 5950 3000 50  0001 C CNN
+F 1 "GND" H 5955 3077 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "" H 5950 3250 50  0001 C CNN
+	1    5950 3250
 	1    0    0    -1  
 $EndComp
+Text GLabel 6100 3300 3    50   Input ~ 0
+Vbias
+Wire Wire Line
+	6100 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 3250
+Connection ~ 6100 3200
 $EndSCHEMATC
